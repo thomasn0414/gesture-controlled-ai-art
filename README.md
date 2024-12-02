@@ -85,10 +85,8 @@ Refer to the TinkerCAD wiring diagram below for hardware connections:
 ### Step 3: Running the Application
 Ensure the Arduino is connected and powered on.
 
+Download [gesture_python.py](gesture-controlled-ai-art/Python/gesture_python.py)\
 Run the Python application:
-
-bash
-Copy code
 python gesture_python.py\
 How it works:
 
