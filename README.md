@@ -33,7 +33,7 @@ This project allows users to create abstract AI-generated artwork by controlling
 
 ### Wiring Diagram
 Refer to the TinkerCAD wiring diagram below for hardware connections:
-![TinkerCAD Wiring Diagram](Arduino/TinkerCAD_Wiring.png)
+![TinkerCAD Wiring Diagram](gesture-controlled-ai-art/Arduino/TinkerCAD_Wiring.png)
 
 #### Wiring Explanation:
 - **RGB LED**:
@@ -128,3 +128,9 @@ Modify the script to use a predefined canvas for debugging:
 static_canvas = Image.new("RGB", (256, 256), "white")
 draw = ImageDraw.Draw(static_canvas)
 draw.rectangle([50, 50, 200, 200], fill="black", outline="blue", width=3)
+   ```
+## Example output
+Sample preprocessing debug image:
+![Preprocessing debug](gesture-controlled-ai-art/Debug/debug_preprocessed_canvas.png)
+Sample output image:
+![Output image](gesture-controlled-ai-art/Debug/generated_image.png)
