@@ -130,7 +130,7 @@ draw = ImageDraw.Draw(static_canvas)
 draw.rectangle([50, 50, 200, 200], fill="black", outline="blue", width=3)
    ```
 ## Example output
-Sample preprocessing debug image:
-![Preprocessing debug](gesture-controlled-ai-art/Debug/debug_preprocessed_canvas.png)
-Sample output image:
+Sample preprocessing debug image:\
+![Preprocessing debug](gesture-controlled-ai-art/Debug/debug_preprocessed_canvas.png)\
+Sample output image:\
 ![Output image](gesture-controlled-ai-art/Debug/generated_image.png)
