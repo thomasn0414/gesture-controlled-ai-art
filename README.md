@@ -89,8 +89,8 @@ Run the Python application:
 
 bash
 Copy code
-python gesture_python.py
-How it works:\
+python gesture_python.py\
+How it works:
 
 The program will wait for the button press to start the canvas.\
 Once pressed:\
@@ -100,7 +100,7 @@ Use the following keyboard controls:\
 
 q: Quit the program.\
 c: Clear the canvas (reset hand-drawn input).\
-s: Save the canvas and start generating AI artwork. The LED will turn green during this process.\
+s: Save the canvas and start generating AI artwork. The LED will turn green during this process.
 
 ## Debugging and Testing
 ### Common Issues:
